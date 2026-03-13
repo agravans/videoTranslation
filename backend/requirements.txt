@@ -1,0 +1,30 @@
+# Web framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Pydantic & config
+pydantic
+pydantic-settings
+
+# Async job queue
+celery
+redis
+
+# AI / ML
+anthropic
+openai
+
+# Whisper (local STT — pick one)
+# faster-whisper       # Recommended: C++ backend, much faster
+# openai-whisper       # Original, slower but simpler
+
+# HTTP
+requests
+httpx
+
+# Audio processing
+# ffmpeg-python        # Python wrapper for FFmpeg (FFmpeg must be installed separately)
+
+# Utilities
+python-dotenv
